@@ -6,7 +6,7 @@
 soupsnake is a project powered by Flask and Javascript that intends to make interfacing with Ollama as simple as possible. It features:
 
 - :white_check_mark: A simple yet comfortable UI.
-- :white_check_mark: Allows you to choose locally installed models via a dropdown.
+- :white_check_mark: Allows you to choose local models via a dropdown.
 - :white_check_mark: AUTOMATIC1111 Stable Diffusion WebUI support
 - :white_check_mark: Lightweight and performant.
 
@@ -17,7 +17,7 @@ Due to my fairly busy life, soupsnake doesn't have constant updates like other W
 
 - <b><i>List is ordered by priority.</b></i>
 
-- [ ] Refactor the more rushed aspects of soupsnake so features are even more easier and faster to interact with.
+- [ ] Refactor design and code oversights to make soupsnake far more fluid to interact with.
 - [ ] Refactor CSS and HTML to properly support Safari.
 - [ ] Support for pulling models for ollama via the UI
 - [ ] A menu which allows you to change options for both the LLM and Generative AI Image model. Such as steps or warmth.
