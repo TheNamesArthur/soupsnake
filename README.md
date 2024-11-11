@@ -13,7 +13,9 @@ soupsnake is a project powered by Flask and Javascript that intends to make inte
 
 ## Planned Features.
 > [!IMPORTANT]
-Due to my fairly busy life, soupsnake doesn't have constant updates like other WebUI's. It's updated whenever I can do so, however, there are features I do plan to add such as. List is ordered by priority.
+Due to my fairly busy life, soupsnake doesn't have constant updates like other WebUI's. It's updated whenever I can do so, however, there are features I do plan to add such as.
+
+- <b><i>List is ordered by priority.</b></i>
 
 - [ ] Rewriting some of the more rushed aspects so that features are easier to access right off the get go.
 - [ ] Support for pulling models for ollama via the UI
@@ -34,4 +36,5 @@ soupsnake comes with scripts that will handle all of this for you. So unless you
 - Python 3.12
 - Git
 - Flask
+- [Ollama](https://ollama.com/)
 ## Installation.
