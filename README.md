@@ -11,7 +11,7 @@ soupsnake is a project powered by Flask and Javascript that intends to make inte
 - :white_check_mark: Lightweight and performant.
 
 
-## Planned Features.
+## Planned Updates.
 > [!IMPORTANT]
 Due to my fairly busy life, soupsnake doesn't have constant updates like other WebUI's. It's updated whenever I can do so, however, there are features I do plan to add such as.
 
