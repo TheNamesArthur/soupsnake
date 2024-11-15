@@ -1,7 +1,5 @@
 # soupsnake. 
 <b>Simple.</b> Ollama. UI Portal. Powered by Flask &amp; Javascript.
-
-![An edited photo of the ollama logo (which is a llama) with a fedora and a cigarette in it's mouth. Meant to look like oppenheimer, a nod to the original name for this project being "Oppenllama" or "OpenLlama" ](https://i.imgur.com/dmAnvHj.png)
 ## Tell me more.
 soupsnake is a project powered by Flask and Javascript that intends to make interfacing with Ollama as simple as possible. It features:
 
