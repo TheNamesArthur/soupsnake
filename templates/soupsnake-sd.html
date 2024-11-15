@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Soupsnake Help</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/sd-stylesheet.css')}}">
+    <link rel="icon" href="{{url_for('static', filename='favicon.png')}}" type="image/x-icon">
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 id="title">soupsnake</h1>
+        <h3 id="acronym">Stable Diffusion.</h3>
+        <a style="float: right" class="close">&times;</a>
+        <script>
+            $(".close").on("click", () => {
+                $(".modal").css("display", "none");
+            });
+        </script>
+    </div>
+    
+    <div class="modal-body">
+        <div id="soupsnake-description">
+            <br>
+            <h1 id="what-is-stable">🤔 What is Stable Diffusion?</h1>
+            <h3 id="description">
+                In short terms, Stable Diffusion is an AI model that is primarly used to generate images trained off of huge amounts of data. It has gained it's popularity due to its ability to generate high quality images with a wide range of styles. 
+                soupsnake supports "AUTOMATIC1111 Stable Diffusion WebUI" 
+                an open-source project that provides a user-friendly interface for interacting with Generative AI Image Models. 
+            </h3>
+        </div>
+
+        <div id="how-to-use-container">
+            <h1 id="how-to-use">🤷‍♂️ How to use Stable Diffusion with soupsnake?</h1>
+            <ul id="steps-container">
+                <li>🚀 <strong>Step 1.</strong> Please enable the API mode, you can learn how to do so <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API" target="_blank">here</a></li>
+                <li>❗️ <strong>Note:</strong> If you'd like, you may just run the following arguments in your terminal:</li>
+                <li>❗️<strong> "./webui-user.bat --api --cors-allow-origins "http://localhost:5000"</strong></li>
+                <li>❗️<strong> "Please be advised that the script (I.E .bat for Windows.) is different depending on your Operating System of choice.</strong></li>
+                <li>🎨 <strong>Step 2.</strong> Once enabled, input the IP that Stable Diffusion is running on in the box. Once the status turns green, soupsnake has successfully detected your Stable Diffusion instance.</li>
+                <div class="sd-ip-container">
+                    <input class="sd-ip" type="text" id="sdip-textbox" placeholder="http://127.0.0.1:7860">
+                </div>
+                <div class="sd-status-checker"></div>
+                <li class="step3">🔒 <strong>Step 3.</strong> Get to generating!</li>
+            </ul>
+        </div>
+        <br>
+    </div>
+
+    <script src="{{url_for('static', filename='js/soupsnake_sd.js')}}"></script> 
+</body>
+</html>

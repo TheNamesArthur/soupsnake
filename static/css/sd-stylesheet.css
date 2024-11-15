@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body {
+    background-color: #2E3440;
+}
+
+.modal-header {
+    background-color: #434C5E;
+    color: #D8DEE9;
+    border-radius: 15px;
+    margin: 10px;
+    max-width: 100%;
+    max-height: min-content;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+#title {
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+}
+
+#acronym {
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    transform: translate(50%, 0);
+    right: 50%;
+}
+
+#what-is-stable{ 
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    text-align: center;
+}
+
+.sd-status-checker {
+    background-color: #BF616A;
+    max-width: 33px;
+    height: 33px;
+    position: relative;
+    top: -23px;
+    left: 230px;
+    margin-left: 29px;
+    margin-right: auto;
+    border-radius: 10px;
+    opacity: 100;
+}
+
+#description{
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    text-align: left;
+}
+
+.modal-body {
+    background-color: #434C5E;
+    color: #D8DEE9;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
+}
+
+#how-to-use{
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    text-align: center;
+}
+
+#steps-container{
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    text-align: left;
+}
+
+a {
+    color: inherit;
+  }
+
+a.close {
+    position: relative;
+    top: -90;
+    font-size: xxx-large;
+    cursor: pointer;
+}
+
+.sd-ip {
+    background-color: transparent;
+    border: 0px solid;
+    height: 33px;
+    width: 232px;
+    color: #CCC;
+    outline: none;
+}
+
+.sd-ip-container {
+    background-color: #222630;
+    max-width: 232px;
+    height: 33px;
+    position: relative;
+    top: 10px;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: large;
+    opacity: 0.35;
+}
+
+.step3 {
+    margin-top: -20px;
+    
+}

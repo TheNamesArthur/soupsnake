@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Soupsnake Help</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/help-stylesheet.css')}}">
+    <link rel="icon" href="{{url_for('static', filename='favicon.png')}}" type="image/x-icon">
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 id="title">soupsnake</h1>
+        <h3 id="acronym">The Simple Ollama UI Portal utilizing python.</h3>
+        <a style="float: right" class="close">&times;</a>
+        <script>
+            $(".close").on("click", () => {
+                $(".modal").css("display", "none");
+            });
+        </script>
+    </div>
+    
+    <div class="modal-body">
+        <div id="soupsnake-description">
+            <br>
+            <h1 id="what-is-soupsnake">🤔 What is Soupsnake?</h1>
+            <h3 id="description">
+                "Soupsnake" is a sleek and agile web-based user interface (UI) portal that leverages the power of Python and Flask
+                to provide a seamless front-end experience for Ollama. Designed with speed, simplicity, and scalability in mind,
+                Soupsnake boasts a lightweight yet robust architecture that delivers exceptional performance without sacrificing
+                functionality or ease of use.<br>
+                <br>
+                With its intuitive design and rapid response times, Soupsnake streamlines the interaction process, making it an
+                ideal gateway to Ollama's features and capabilities. Whether you're seeking to accelerate workflows, simplify data
+                management, or unlock new insights, Soupsnake's user-centric approach ensures a seamless journey, every time.
+            </h3>
+        </div>
+        <br>
+        <div id="why-soupsnake-container">
+            <h1 id="why-soupsnake">🤷‍♂️ Why Soupsnake?</h1>
+            <ul id="reasons-soupsnake">
+                <li>🚀 <strong>Speed:</strong> Soupsnake is designed for high performance, delivering rapid response times and smooth interactions.</li>
+                <li>🎨 <strong>Simplicity:</strong> With a clean and intuitive interface, Soupsnake makes it easy to navigate and use Ollama's features. Designed to be easy enough for anyone to understand.</li>
+                <li>🔒 <strong>Security:</strong> Due to soupsnakes open-source and self-hosted nature. There is no worry about any potentially unwanted viewers looking at your data.</li>
+            </ul>
+        </div>
+        <br>
+        <div id="how-to-use-container">
+            <h1 id="how-to-use">👨‍💻 How to Use Soupsnake</h1>
+            <ol id="steps-to-use">
+                <li>🔗 <strong>Connect to Ollama:</strong> Enter the IP address and port number of your Ollama instance in the input box at the top left of the page.</li>
+                <li>📚 <strong>Select Your Model:</strong> Choose your desired model from the dropdown menu at the top right of the page.</li>
+                <li>💬 <strong>Start Chatting:</strong> Type a message in the input box at the bottom of the page and press Enter to send it to Ollama.</li>
+                <li>🔍 <strong>View Responses:</strong> Ollama will respond to your messages in the chat window, displaying the results of your queries.</li>
+                <li>🔄 <strong>Refresh Connection:</strong> If you lose connection to Ollama, ensure that you've entered a valid IP address and port.</li>
+                <li>❗️ <strong>Note:</strong> The default IP address and port for Ollama is <strong><a href="http://127.0.0.1:11434">http://127.0.0.1:11434</a></strong></li>
+            </ol>
+    </div>
+    <div id="footer">
+        <h3 id="footer-text">Made with ❤️ by <a href="https://github.com/TheNamesArthur">Me!</a></h3>
+</body>
+</html>

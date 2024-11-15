@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>soupsnake</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="{{url_for('static', filename='favicon.png')}}" type="image/x-icon"/>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/stylesheet.css')}}"/>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="main-container">
+            <div class="chat-backdrop">
+                <div class="top-bar">
+                    <div class="input-ip-backdrop">
+                        <div class="input-ip">
+                            <input class="ip-textbox" type="text" id="ip" placeholder="http://127.0.0.1:11434"/>
+                        </div>
+                    </div>
+                    <div class="model-selector">
+                        <select class="model-dropdown" id="model"></select>
+                    </div>
+
+                    <div class="title-container">
+                        <h1 class="title">soupsnake</h1>
+                    </div>
+                    <div class="status-checker"></div>
+                </div>
+                <div id="chat" class="chat"></div>
+                <div class="input-text">
+                    <input class="message-textbox" name="prompt" type="text" id="message" placeholder="Type a message..." />
+                    <button id="submit" class="submit-button" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="modal" style="display: none">
+            <div class="modal-content"></div>
+        </div>
+
+        <script src="{{url_for('static', filename='js/commandhandler.js')}}"></script>
+        <script src="{{url_for('static', filename='js/status_checker.js')}}"></script>
+        <script src="{{url_for('static', filename='js/soupsnake.js')}}"></script>
+        <script src="{{url_for('static', filename='js/soupsnake_sd.js')}}"></script>
+    </body>
+</html>
