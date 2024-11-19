@@ -1,8 +1,11 @@
 # soupsnake. 
 <b>Simple.</b> Ollama. UI Portal. Powered by Flask &amp; Javascript.
 ## Tell me more.
-soupsnake is a project powered by Flask and Javascript that intends to make interfacing with Ollama as simple as possible. It features:
+Soupsnake is a user-friendly interface designed to simplify interactions with AI through Ollama, eliminating the need for terminal commands. Built with Flask and JavaScript, Soupsnake offers a lightweight and fast application that balances simplicity with robust features.
 
+Targeted at users seeking an intuitive and easy-to-run solution, Soupsnake streamlines the AI experience by providing a seamless, efficient, and accessible platform for inquiries and interactions.
+
+It features:
 - :white_check_mark: A simple yet comfortable UI.
 - :white_check_mark: Allows you to choose local models via a dropdown.
 - :white_check_mark: AUTOMATIC1111 Stable Diffusion WebUI support
