@@ -35,9 +35,21 @@ If soupsnake isn't for you, here are some projects that I do recommend!
 
 ## Requirements.
 > [!IMPORTANT]
-soupsnake comes with scripts that will handle all of this for you. So unless you're cloning the repo directly from Github, the startup process is incredibly simple.
+Python and Git must be installed globally onto the system.
 - Python 3.12
 - Git
 - Flask
 - [Ollama](https://ollama.com/)
 ## Installation.
+For Windows:
+- Download `soupsnake-v1.0-windows.bat` from releases
+- In your terminal, in the folder which the script is located, run `./soupsnake-v1.0-windows.bat`
+
+For Linux:
+- Download `soupsnake-v1.0-linux.sh` from releases
+- In your terminal, in the folder which the script is located, run `./soupsnake-v1.0-linux.sh`
+
+For MacOS:
+- Download `soupsnake-v1.0-macos.sh` from releases
+- In your terminal, in the folder which the script is located, run `./soupsnake-v1.0-macos.sh`
+
