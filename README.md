@@ -19,8 +19,8 @@ Due to my fairly busy life, soupsnake doesn't have constant updates like other W
 - <b><i>List is ordered by priority.</b></i>
 
 - [ ] Refactor design and code oversights to make soupsnake far more fluid to interact with.
-- [ ] Refactor CSS and HTML to properly support Safari.
 - [ ] Implement chat history so that conversations can be more fluid.
+- [ ] Refactor CSS and HTML to properly support Safari.
 - [ ] Support for pulling models for ollama via the UI
 - [ ] A menu which allows you to change options for both the LLM and Generative AI Image model. Such as steps or warmth.
 
