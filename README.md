@@ -35,7 +35,7 @@ If soupsnake isn't for you, here are some projects that I do recommend!
 
 ## Requirements.
 > [!IMPORTANT]
-Python, pip and Git must be installed globally onto the system.
+Python, Git and pip must be installed globally onto the system.
 - Python 3.12
 - Git
 - Pip
