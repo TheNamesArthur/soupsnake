@@ -47,7 +47,7 @@ For Windows:
 
 For Linux:
 - Download `soupsnake-v1.0-linux.sh` from releases
-- First, open your terminal and navigate to the folder which the script is downloaded in, and run `sudo chmod +x ./soupsnake-v1.0-linux.sh`
+- First, open your terminal and navigate to the folder which the script is downloaded in, and run `chmod +x ./soupsnake-v1.0-linux.sh`
 - In your terminal, in the folder which the script is located, run `./soupsnake-v1.0-linux.sh`
 
 For MacOS:
