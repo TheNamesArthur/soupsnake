@@ -32,3 +32,14 @@ $(document).ready(() => {
         localStorage.setItem("sd_ip", "http://127.0.0.1:7860");
     }
 });
+
+// $(document).ready(() => {  // Uncomment when the user_steps textbox is added to the page
+//     const userStepsTextbox = $("#userStep-textbox");
+//     const storedSteps = localStorage.getItem("user_steps");
+//     userStepsTextbox.on('change', () => {
+//         localStorage.setItem("user_steps", userStepsTextbox.val());
+//     });
+//     if (storedSteps) {
+//         userStepsTextbox.val(storedSteps);
+//     }
+// });

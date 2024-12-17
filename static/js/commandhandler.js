@@ -6,6 +6,8 @@ function clearInput() {
 function handleGeneration() {
     var url = localStorage.getItem("sd_ip") || ($("#sdip-textbox").val() == "" ? $("#sdip-textbox").attr("placeholder") : $("#sdip-textbox").val());
     var generationPrompt = $("#message").val().replace("/generate ", "");
+    // var userSteps = localStorage.getItem("user_steps") || ($("#user-steps").val() == "" ? $("#user-steps").attr("placeholder") : $("#user-steps").val()); 
+    // Uncomment when the user_steps textbox is added to the page
     var payload = { // TODO: Allow for more customization of the generation process. 
         "prompt": generationPrompt, 
         "steps": 20,
