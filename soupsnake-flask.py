@@ -15,4 +15,5 @@ def help():
 def stablediffusion():
     return render_template("soupsnake-sd.html")
 
-# app.run(host='0.0.0.0') //Uncomment this line if you want to open the app to your local network
+# Uncomment the line below if you want to open the app to your local network.
+# app.run(host='0.0.0.0') 

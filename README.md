@@ -19,8 +19,8 @@ Due to my fairly busy life, soupsnake doesn't have constant updates like other W
 - <b><i>List is ordered by priority.</b></i>
 
 - [ ] Refactor design and code oversights to make soupsnake far more fluid to interact with.
-- [ ] Refactor CSS and HTML to properly support Safari.
 - [ ] Implement chat history so that conversations can be more fluid.
+- [ ] Refactor CSS and HTML to properly support Safari.
 - [ ] Support for pulling models for ollama via the UI
 - [ ] A menu which allows you to change options for both the LLM and Generative AI Image model. Such as steps or warmth.
 
@@ -35,9 +35,10 @@ If soupsnake isn't for you, here are some projects that I do recommend!
 
 ## Requirements.
 > [!IMPORTANT]
-Python and Git must be installed globally onto the system.
+Python, Git and pip must be installed globally onto the system.
 - Python 3.12
 - Git
+- Pip
 - Flask
 - [Ollama](https://ollama.com/)
 ## Installation.
@@ -47,6 +48,7 @@ For Windows:
 
 For Linux:
 - Download `soupsnake-v1.0-linux.sh` from releases
+- First, open your terminal and navigate to the folder which the script is downloaded in, and run `chmod +x ./soupsnake-v1.0-linux.sh`
 - In your terminal, in the folder which the script is located, run `./soupsnake-v1.0-linux.sh`
 
 For MacOS:
