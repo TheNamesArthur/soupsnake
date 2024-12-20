@@ -15,5 +15,9 @@ def help():
 def stablediffusion():
     return render_template("soupsnake-sd.html")
 
+@app.route('/genoptions')
+def genoptions():   
+    return render_template("soupsnake-genoptions.html")
+
 # Uncomment the line below if you want to open the app to your local network.
 # app.run(host='0.0.0.0') 

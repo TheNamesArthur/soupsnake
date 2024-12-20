@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Soupsnake Help</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/sd-stylesheet.css')}}">
+    <link rel="icon" href="{{url_for('static', filename='favicon.png')}}" type="image/x-icon">
+</head>
+
+<style>
+/* Chromium Based Browsers */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+</style>
+
+<body>
+    <div class="modal-header">
+        <h1 id="title">soupsnake</h1>
+        <h3 id="acronym">Generation Options (beta)</h3>
+        <a style="float: right" class="close">&times;</a>
+        <script>
+            $(".close").on("click", () => {
+                $(".modal").css("display", "none");
+            });
+        </script>
+    </div>
+    
+    <div class="modal-body">
+        <div id="soupsnake-description">
+            <br>
+            <h1 id="genop-title">Stable Diffusion Generation Options</h1>
+        </div>
+
+    <div class="how-to-use-container">
+        <p>Steps:</p>
+        <input class="user-steps" type="number" id="userStepsTextbox" placeholder="20">
+        <p>CFG Scale:</p>
+        <input class="user-cfgscale" type="number" id="userCFGscaleTextbox" placeholder="7">
+        <p>Width:</p>
+        <input class="user-width" type="number" id="userWidthTextbox" placeholder="512">
+        <p>Height:</p>
+        <input class="user-height" type="number" id="userHeightTextbox" placeholder="512">
+        <p>Denoising Strength:</p>
+        <input class="user-denoising" type="number" id="userDenoisingTextbox" placeholder="0">
+    </div>
+        
+    <script src="{{url_for('static', filename='js/soupsnake_sd.js')}}"></script> 
+</body>
+</html>

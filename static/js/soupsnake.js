@@ -135,11 +135,3 @@ $(document).ready(() => {
       localStorage.setItem("ip", "http://127.0.0.1:11434");
   }
 });
-
-function BrowserAlert() {
-  if (!localStorage.getItem("sdAlertShown")) {
-  alert("Hello! Just an alert, if you plan to use stable diffusion, please run /sd first. It will not run the script otherwise, this will be fixed in the future. Thank you!");
-  localStorage.setItem("sdAlertShown", "true");
-}
-}
-BrowserAlert();

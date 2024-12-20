@@ -1,0 +1,57 @@
+/* WIP */
+
+body {
+    background-color: #2E3440;
+}
+
+.modal-header {
+    background-color: #434C5E;
+    color: #D8DEE9;
+    border-radius: 15px;
+    margin: 10px;
+    max-width: 100%;
+    max-height: min-content;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+#title {
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+}
+
+#acronym {
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    transform: translate(50%, 0);
+    right: 50%;
+}
+
+#how-to-use-container {
+    font-family: 'Comic Neue', cursive;
+    color: #ECEFF4;
+    text-align: center;
+}
+
+.user-steps {
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    }
